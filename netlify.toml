@@ -1,0 +1,4 @@
+[build]
+  base = "fitnesspro"
+  publish = "."
+  command = "echo 'No build command'"
