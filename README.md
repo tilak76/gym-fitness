@@ -1,4 +1,4 @@
-# FitTrack Pro 💪
+# FitTrack Pro 
 
 **Live Demo:** [https://fitnessprooo.netlify.app/](https://fitnessprooo.netlify.app/)
 
@@ -20,15 +20,15 @@ FitTrack Pro is a modern, premium fitness tracking dashboard designed to help us
 
 <!-- Add your video or GIF link below -->
 ![App Screenshot](fitnesspro/images/logo.png) 
-*(Upload a video to YouTube or add a GIF here to show the app in action)*
 
-## 🛠️ Tech Stack
+
+##  Tech Stack
 
 -   **Frontend:** HTML5, CSS3 (Glassmorphism UI), JavaScript (ES6+)
 -   **Charts:** Chart.js
 -   **Icons:** FontAwesome
 
-## 🚀 Getting Started
+## Getting Started
 
 1.  Clone the repository:
     ```bash
@@ -36,6 +36,6 @@ FitTrack Pro is a modern, premium fitness tracking dashboard designed to help us
     ```
 2.  Open `index.html` in your browser or use Live Server.
 
-## 👤 Author
+## Author
 
 **Tilak Mishra**
