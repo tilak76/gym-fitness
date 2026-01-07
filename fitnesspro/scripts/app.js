@@ -1,21 +1,4 @@
-// ============================================
-// MY GYM TRACKER - Main Javascript
-// ============================================
-//
-// LIBRARIES USED:
-// 1. Chart.js (https://www.chartjs.org/)
-//    - Used to draw the 'Weight Progress' graph.
-//    - It takes our data points and renders a smooth line chart on the <canvas>.
-//
-// 2. LocalStorage (Native Browser API)
-//    - Used to save your data (workouts, weight, water) directly in your browser.
-//    - This means you can refresh the page and your data is still here!
-//
-// NOTE: This uses regular, simple JavaScript. No complex frameworks.
-// ============================================
 
-// --- 1. DATA HANDLING ---
-// We call localStorage to retrieve data. If it doesn't exist, we use defaults (empty arrays or 0).
 let data = {
     workouts: JSON.parse(localStorage.getItem('mygym_workouts')) || [],
     weight: localStorage.getItem('mygym_weight') || '--',
@@ -26,7 +9,7 @@ let data = {
     user: JSON.parse(localStorage.getItem('mygym_user')) || null
 };
 
-// Global variable for the Chart instance so we can update it later
+
 let chartInstance = null;
 let currentCalendarDate = new Date(); // Track currently viewed month
 
